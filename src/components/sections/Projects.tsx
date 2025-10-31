@@ -14,7 +14,6 @@ export default function Projects() {
       <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
         {items.map((p) => (
           <Card key={p.id} className="overflow-hidden">
-            {/* Placeholder da imagem do projeto — trocaremos por <Image /> depois */}
             <div className="aspect-video bg-muted" />
             <CardContent className="p-4">
               <div className="font-medium">{p.title}</div>
