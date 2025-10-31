@@ -31,9 +31,10 @@ export default function Hero() {
         <Image
           src="/profile.png"
           alt="Foto de Pedro Juan"
-          width={224}
-          height={224}
+          width={320} // antes: 224
+          height={320} // antes: 224
           className="rounded-full object-cover shadow-md"
+          sizes="(min-width: 768px) 320px, 256px"
         />
       </div>
     </section>
