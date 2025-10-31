@@ -28,14 +28,16 @@ export default function Hero() {
       </div>
 
       <div className="flex items-center justify-center">
-        <Image
-          src="/profile.png"
-          alt="Foto de Pedro Juan"
-          width={320} // antes: 224
-          height={320} // antes: 224
-          className="rounded-full object-cover shadow-md"
-          sizes="(min-width: 768px) 320px, 256px"
-        />
+        <div className="relative inline-block rounded-full p-[5px] bg-linear-to-tr from-zinc-200 via-zinc-400 to-zinc-200 dark:from-zinc-700 dark:via-zinc-500 dark:to-zinc-700">
+          <Image
+            src="/profile.png"
+            alt="Foto de Pedro Juan"
+            width={320}
+            height={320}
+            className="rounded-full object-cover shadow-md transition-transform duration-300 ease-out hover:scale-[1.02]"
+            sizes="(min-width: 768px) 320px, 256px"
+          />
+        </div>
       </div>
     </section>
   )
