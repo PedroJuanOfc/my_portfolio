@@ -1,7 +1,9 @@
+import Hero from '@/components/sections/hero'
+
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-3xl font-bold">Pedro Juan — Portfólio</h1>
+    <main className="mx-auto max-w-5xl px-4 py-16">
+      <Hero />
     </main>
   )
 }

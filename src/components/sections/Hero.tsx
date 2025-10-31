@@ -13,7 +13,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-muted-foreground">
-          (frasezinha) Eu construo experiências web rápidas e elegantes.
+          Eu construo experiências web rápidas e elegantes.
         </p>
 
         <div className="flex justify-center md:justify-start gap-3 pt-2">
