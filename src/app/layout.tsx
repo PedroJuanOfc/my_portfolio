@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import Navbar from '@/components/layout/Navbar'
 
 export const metadata: Metadata = {
   title: 'Pedro Juan • Portfólio',
@@ -14,7 +15,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="min-h-screen bg-background text-foreground antialiased">
-        {children}
+        <Navbar />
+        <main className="pt-20">{children}</main>
       </body>
     </html>
   )
