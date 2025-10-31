@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -27,7 +28,13 @@ export default function Hero() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="h-56 w-56 rounded-full bg-muted" />
+        <Image
+          src="/profile.png"
+          alt="Foto de Pedro Juan"
+          width={224}
+          height={224}
+          className="rounded-full object-cover shadow-md"
+        />
       </div>
     </section>
   )
