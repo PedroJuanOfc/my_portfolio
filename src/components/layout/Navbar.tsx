@@ -1,3 +1,4 @@
+'use client'
 import { Link } from 'react-scroll'
 import { Button } from '@/components/ui/button'
 
